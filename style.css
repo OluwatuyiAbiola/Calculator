@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+/* center calculator */
+.calculator{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Screen */
+.screen{
+    height: 150px;
+    width: 205px;
+    background-color: #040b33;
+    margin: auto;
+    overflow: hidden;
+}
+/* screen content */
+.screenContent{
+    text-align: end;
+    padding: 17px;
+    font-size: 30px;
+    user-select: none;
+}
+
+.calculation{
+    font-size: 12px;
+    color: #fff;
+    overflow: auto;
+    padding-top: 2rem;
+    
+}
+
+/* result */
+.result{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    color: #fff;
+    overflow-wrap: break-word;
+}
+
+/* Table btn  */
+table{
+    background-color: #0013e4;
+    border-collapse: collapse;
+}
+
+tr, td{
+    border: 0.2px solid #000;
+    border-collapse: collapse;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background: #002b4a;
+    color: #fff;
+    outline: none;
+}
+.operator{
+    color: #26b821;
+    font-family: "Fira Sans", sans-serif;
+}
+.math{
+    color: #9a80e4;
+    font-family: "Fira Sans", sans-serif;
+}
+
+input[type="button"]:hover {
+    background-color: #ffa800;
+    color: #fff;
+    transition: all 0.5s linear;
+}
